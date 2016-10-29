@@ -5,36 +5,36 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <!-- SCROLLS -->
-  <link rel="stylesheet" href="lib/bootstrap.css" />
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
 
-  <!-- SPELLS -->
+  <!-- estilo -->
+  <link rel="stylesheet" href="lib/bootstrap.css"/>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css"/>
+  <link rel="stylesheet" href="estilo.css"/>
+    
+  <!-- js -->
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
   <script src="script.js"></script>
   <style>
   </style>
 </head>
-
-<!-- define angular controller -->
-<body ng-controller="mainController">
-
-  <nav class="navbar navbar-default">
+<body ng-controller="mainController" class="body">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#"><img src="imagens/pie-chart.png"></a>
       </div>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><i><img src="imagens/home.png"></i> Home</a></li>
-        <li><a href="#sobre"><i class="fa fa-shield"></i> Sobre</a></li>
-        <li><a href="#analise"><i><img src="imagens/graph-analysis.png"></i> Analises</a></li>
-        <li><a href="#contato"><i class="fa fa-comment"></i> Contato</a></li>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#analise">Analises</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </div>
   </nav>
-
 
 
   <div  id="main">
