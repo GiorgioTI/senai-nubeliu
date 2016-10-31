@@ -1,17 +1,17 @@
-.navbar-header{
- 
-}
-#conteudo-sobre{
+.navbar-header {}
+
+#conteudo-sobre {
     margin-top: 90px;
     background-color: #E6E6E6;
 }
 
-.title{
+.title {
     text-align: center;
-    color:#fff;
+    color: #fff;
     margin-top: 80px;
 }
-.banner-section{
+
+.banner-section {
     margin-top: 49px;
     background-image: url(imagens/header_image_uk1.png);
     -webkit-background-size: cover;
@@ -20,16 +20,20 @@
     background-size: cover;
     height: 400px;
 }
-#panel{
-    margin-top: 10px;
+
+#panel {
+    margin-top: 40px;
 }
-.btn-success{
-    background:#86C543;
-}   
-#contato{
+
+.btn-success {
+    background: #86C543;
+}
+
+#contato {
     margin-top: 70px;
 }
-item-menu:after{     
+
+item-menu:after {
     -webkit-transition: all 0.15s ease;
     -moz-transition: all 0.15s ease;
     -o-transition: all 0.15s ease;
@@ -44,22 +48,30 @@ item-menu:after{
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
 }
-ol, ul {
+
+ol,
+ul {
     list-style: none;
 }
+
 li {
     display: inline-block;
     padding: 20px 0 20px;
     vertical-align: middle;
 }
-.menu-item:hover, .menu-item:focus, .menu-item:active {
+
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
     color: #999;
     text-decoration: none;
 }
-.menu-item{
+
+.menu-item {
     text-decoration: none;
     transition: color 0.1s, background-color 0.1s;
 }
+
 .menu-item {
     position: relative;
     display: block;
@@ -67,9 +79,10 @@ li {
     margin: 0 2px;
     line-height: 16px;
     text-transform: uppercase;
-    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
     color: #000;
 }
+
 .menu-item::before {
     content: '';
     display: block;
@@ -81,12 +94,23 @@ li {
     background-color: #86C543;
     transform-origin: right top;
     transform: scale(0, 1);
-    transition: color 0.1s,transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out;
 }
+
 .menu-item:active::before {
     background-color: #86C543;
 }
-.menu-item:hover::before, a:focus::before {
+
+.menu-item:hover::before,
+a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
+}
+
+.imagem-conteudo {
+    text-align: center;
+}
+
+#titulo-card {
+    text-align: center;
 }
