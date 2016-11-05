@@ -1,8 +1,8 @@
 	// create the module and name it scotchApp
-	var scotchApp = angular.module('scotchApp', ['ngRoute']);
+	var ColectApp = angular.module('ColectApp', ['ngRoute']);
 
 	// configure our routes
-	scotchApp.config(function($routeProvider) {
+	ColectApp.config(function($routeProvider) {
 		$routeProvider
 
 			// route for the home page
@@ -25,23 +25,28 @@
 			.when('/contato', {
 				templateUrl : 'pages/contato.html',
 				controller  : 'contatoController'
+			})
+        
+            .when('/login', {
+				templateUrl : 'pages/login.html',
+				controller  : 'loginController'
 			});
 	});
 
 	// create the controller and inject Angular's $scope
-	scotchApp.controller('mainController', function($scope) {
+	ColectApp.controller('mainController', function($scope) {
 		// create a message to display in our view
 		$scope.message = 'Everyone come and see how good I look!';
 	});
 
-	scotchApp.controller('sobreController', function($scope) {
+	ColectApp.controller('sobreController', function($scope) {
 		$scope.message = 'Look! I am an about page.';
 	});
 
-    scotchApp.controller('analiseController', function($scope) {
+    ColectApp.controller('analiseController', function($scope) {
         $scope.message = 'Analise.';
     });
 
-	scotchApp.controller('contatoController', function($scope) {
+	ColectApp.controller('contatoController', function($scope) {
 		$scope.message = 'Contact us! JK. This is just a demo.';
 	});

@@ -114,4 +114,13 @@ a:focus::before {
 #titulo-card {
     text-align: center;
 }
+#login{
+    margin-top:70px;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.titulo {
+    margin-top: 90px;
 }

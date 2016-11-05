@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 
 <!-- define angular app -->
-<html ng-app="scotchApp">
+<html ng-app="ColectApp">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <!-- estilo -->
-  <link rel="stylesheet" href="lib/bootstrap.css"/>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css"/>
-  <link rel="stylesheet" href="estilo.css"/>
-    
-  <!-- js -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-  <script src="/lib/function.js"></script>
-  <script src="script.js"></script>
-  
-  </head>
-    
+    <!-- estilo -->
+    <link rel="stylesheet" href="lib/bootstrap.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css" />
+    <link rel="stylesheet" href="estilo.css" />
+
+    <!-- js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="/lib/function.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
 <body ng-controller="mainController" class="body">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img src="imagens/pie-chart.png"></a>
-      </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="imagens/pie-chart.png"></a>
+            </div>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li class="menu-item"><a href="#"> Home</a></li>
-        <li class="menu-item"><a href="#sobre">Sobre</a></li>
-        <li class="menu-item"><a href="#analise">Analises</a></li>
-        <li class="menu-item"><a href="#contato">Contato</a></li>
-        <li class="menu-item"><a href="#">Login</a></li>
-        </ul>
-      </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="menu-item">
+                    <a href="#"> Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#analise">Analises</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contato">Contato</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
 
-  <div  id="main">
-  
-    <!-- angular templating -->
-		<!-- this is where content will be injected -->
-    <div ng-view></div>
-    
-  </div>
- <!--
+    <div id="main">
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+
+    </div>
+    <!--
   <footer class="text-center">
     footer
   </footer>
