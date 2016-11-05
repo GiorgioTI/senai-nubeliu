@@ -28,6 +28,9 @@
 .btn-success {
     background: #86C543;
 }
+.btn-success:hover{
+    background: #E6E6E6;
+}
 
 #contato {
     margin-top: 70px;
@@ -123,4 +126,9 @@ a:focus::before {
 }
 .titulo {
     margin-top: 90px;
+    padding-bottom: 20px;
+}
+
+.sub-titulo {
+    padding-bottom: 20px;
 }

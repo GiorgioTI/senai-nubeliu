@@ -26,11 +26,22 @@
 				templateUrl : 'pages/contato.html',
 				controller  : 'contatoController'
 			})
-        
+            //rota da pagina de login
             .when('/login', {
 				templateUrl : 'pages/login.html',
 				controller  : 'loginController'
+			})
+            //rota da pagina home depois do login
+            .when('/login-home', {
+				templateUrl : 'pages/login-home.html',
+				controller  : 'login-homeController'
+			})
+            //rota da pagina de manutenção das categorias
+            .when('/categoria-mngm', {
+				templateUrl : 'pages/categoria-mngm.html',
+				controller  : 'categoria-mngmController'
 			});
+            //rota 
 	});
 
 	// create the controller and inject Angular's $scope
