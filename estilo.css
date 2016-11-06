@@ -1,4 +1,4 @@
-.navbar-header {}
+    .navbar-header {}
 
 #conteudo-sobre {
     margin-top: 90px;
@@ -131,4 +131,9 @@ a:focus::before {
 
 .sub-titulo {
     padding-bottom: 20px;
+}
+
+#h4-cat-create {
+    margin-left: 40px;
+    margin-top: 10px;
 }

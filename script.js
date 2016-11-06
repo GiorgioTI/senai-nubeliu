@@ -40,8 +40,12 @@
             .when('/categoria-mngm', {
 				templateUrl : 'pages/categoria-mngm.html',
 				controller  : 'categoria-mngmController'
-			});
+			})
             //rota 
+            .when('/categoria-create', {
+				templateUrl : 'pages/categoria-create.html',
+				controller  : 'categoria-createController'
+			});
 	});
 
 	// create the controller and inject Angular's $scope
