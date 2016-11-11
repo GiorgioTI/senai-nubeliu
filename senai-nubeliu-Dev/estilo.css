@@ -1,0 +1,160 @@
+    .navbar-header {}
+    
+    #conteudo-sobre {
+        margin-top: 90px;
+        background-color: #E6E6E6;
+    }
+    
+    .title {
+        text-align: center;
+        color: #fff;
+        margin-top: 80px;
+    }
+    
+    .banner-section {
+        margin-top: 49px;
+        background-image: url(imagens/header_image_uk1.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 400px;
+    }
+    
+    #panel {
+        margin-top: 40px;
+    }
+    
+    .btn-success {
+        background: #86C543;
+    }
+    
+    .btn-success:hover {
+        background: #E6E6E6;
+    }
+    
+    #contato {
+        margin-top: 70px;
+    }
+    
+    item-menu:after {
+        -webkit-transition: all 0.15s ease;
+        -moz-transition: all 0.15s ease;
+        -o-transition: all 0.15s ease;
+        transition: all 0.15s ease;
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 3px;
+        left: 0;
+        right: 0;
+        background-color: #2BDE73;
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    li {
+        display: inline-block;
+        padding: 20px 0 20px;
+        vertical-align: middle;
+    }
+    
+    .menu-item:hover,
+    .menu-item:focus,
+    .menu-item:active {
+        color: #999;
+        text-decoration: none;
+    }
+    
+    .menu-item {
+        text-decoration: none;
+        transition: color 0.1s, background-color 0.1s;
+    }
+    
+    .menu-item {
+        position: relative;
+        display: block;
+        padding: 5px 0;
+        margin: 0 2px;
+        line-height: 16px;
+        text-transform: uppercase;
+        transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+        color: #000;
+    }
+    
+    .menu-item::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 3px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background-color: #86C543;
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: color 0.1s, transform 0.2s ease-out;
+    }
+    
+    .menu-item:active::before {
+        background-color: #86C543;
+    }
+    
+    .menu-item:hover::before,
+    a:focus::before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+    
+    .imagem-conteudo {
+        text-align: center;
+    }
+    
+    #titulo-card {
+        text-align: center;
+    }
+    
+    #login {
+        margin-top: 70px;
+        padding-right: 45px;
+        padding-left: 45px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .titulo {
+        margin-top: 90px;
+        padding-bottom: 20px;
+    }
+    
+    .sub-titulo {
+        padding-bottom: 20px;
+    }
+    
+    #h4-cat-create {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        #conteudo-navbar {
+            display: none;
+        }
+        #img-response {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 720px) {
+     
+}
+  
+    #edicao-categoria {
+        margin-top:10px;
+        padding-bottom: 150px;
+    } 

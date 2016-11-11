@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="ColectApp">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- estilo -->
+    <link rel="stylesheet" href="lib/bootstrap.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css" />
+    <link rel="stylesheet" href="estilo.css" />
+
+    <!-- js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="/lib/function.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body ng-controller="mainController" class="body">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" id="conteudo-navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="imagens/pie-chart.png"></a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right  ">
+                <li class="menu-item">
+                    <a href="#"> Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#analise">Analises</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contato">Contato</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="main">
+        <div ng-view></div>
+
+    </div>
+
+
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-6">
+                    <h5>Participantes</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-6">
+                    <h5>Idealizadores:</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2016 Copyright: <a href="www.facebook.com"> <i>SENAI Informática.</i> </a>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
